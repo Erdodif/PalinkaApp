@@ -14,6 +14,7 @@ class AdatKeresesActivity : AppCompatActivity() {
             this.onBackPressed()
         }
     }
+
     override fun onBackPressed(){
         FCompanion.swapActivity(this,MainActivity())
     }
