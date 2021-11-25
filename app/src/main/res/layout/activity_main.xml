@@ -53,9 +53,14 @@
         android:layout_height="match_parent"
         android:layout_marginHorizontal="10dp"
         android:layout_marginVertical="20dp"
-        android:background="@color/Primary"
-        android:id="@+id/scrollView_Lista">
+        android:background="@color/Primary">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/layout_Lista">
 
+        </LinearLayout>
     </ScrollView>
 
 </LinearLayout>
