@@ -10,5 +10,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val bind = ActivityMainBinding.inflate(layoutInflater)
         setContentView(bind.root)
+
+        bind.btnKereses.setOnClickListener {
+            FCompanion.swapActivity(this,AdatKeresesActivity())
+        }
+
+        bind.btnFelvetel.setOnClickListener {
+            FCompanion.swapActivity(this,AdatFelvetelActivity())
+        }
     }
 }

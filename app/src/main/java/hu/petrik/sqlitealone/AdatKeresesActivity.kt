@@ -9,5 +9,9 @@ class AdatKeresesActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val bind = ActivityAdatKeresesBinding.inflate(layoutInflater)
         setContentView(bind.root)
+
+        bind.btnVissza.setOnClickListener {
+            FCompanion.swapActivity(this,MainActivity())
+        }
     }
 }

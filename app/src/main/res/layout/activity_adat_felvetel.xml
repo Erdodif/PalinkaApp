@@ -13,42 +13,51 @@
         android:id="@+id/inputLayout_Fozo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp">
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:hint="@string/fozo">
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/Tetriary"
-            android:hint="@string/fozo"
             android:textSize="17sp"
-            android:inputType="text"/>
+            android:inputType="text"
+            android:textColor="@color/black"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/inputLayout_Gyumolcs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp">
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:hint="@string/gyumolcs">
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/Tetriary"
-            android:hint="@string/gyumolcs"
             android:textSize="17sp"
-            android:inputType="text"/>
+            android:inputType="text"
+            android:textColor="@color/black"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/inputLayout_Alkohol"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp">
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:hint="@string/alkoholtartalom">
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/Tetriary"
-            android:hint="@string/alkoholtartalom"
             android:textSize="17sp"
-            android:inputType="number"/>
+            android:inputType="number"
+            android:textColor="@color/black"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton

@@ -9,5 +9,9 @@ class AdatFelvetelActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val bind = ActivityAdatFelvetelBinding.inflate(layoutInflater)
         setContentView(bind.root)
+
+        bind.btnVissza.setOnClickListener {
+            FCompanion.swapActivity(this,MainActivity())
+        }
     }
 }
