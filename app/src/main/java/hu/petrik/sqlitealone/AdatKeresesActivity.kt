@@ -11,7 +11,10 @@ class AdatKeresesActivity : AppCompatActivity() {
         setContentView(bind.root)
 
         bind.btnVissza.setOnClickListener {
-            FCompanion.swapActivity(this,MainActivity())
+            this.onBackPressed()
         }
+    }
+    override fun onBackPressed(){
+        FCompanion.swapActivity(this,MainActivity())
     }
 }

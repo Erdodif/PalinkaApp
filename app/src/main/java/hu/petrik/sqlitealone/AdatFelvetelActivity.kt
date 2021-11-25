@@ -11,7 +11,10 @@ class AdatFelvetelActivity : AppCompatActivity() {
         setContentView(bind.root)
 
         bind.btnVissza.setOnClickListener {
-            FCompanion.swapActivity(this,MainActivity())
+            onBackPressed()
         }
+    }
+    override fun onBackPressed(){
+        FCompanion.swapActivity(this,MainActivity())
     }
 }
