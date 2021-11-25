@@ -3,4 +3,9 @@
     <string name="pfelvet">Pálinka Felvétele</string>
     <string name="pkeres">Pálinka Keresése</string>
     <string name="plistaz">Pálinkák Listázása</string>
+    <string name="fozo">Főző</string>
+    <string name="gyumolcs">Gyümölcs</string>
+    <string name="alkoholtartalom">Alkoholtartalom %</string>
+    <string name="vissza">Vissza</string>
+    <string name="rogzit">Rögzít</string>
 </resources>
