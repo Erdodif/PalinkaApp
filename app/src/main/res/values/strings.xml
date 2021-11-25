@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Pálinka App 🥂</string>
+    <string name="pfelvet">Pálinka Felvétele</string>
+    <string name="pkeres">Pálinka Keresése</string>
+    <string name="plistaz">Pálinkák Listázása</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/Tetriary"
+    android:paddingTop="10dp">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnFelvetel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="@string/pfelvet"
+        app:cornerRadius="10dp"
+        android:backgroundTint="@color/Secondary"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="17sp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnKereses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="@string/pkeres"
+        app:cornerRadius="10dp"
+        android:backgroundTint="@color/Secondary"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="17sp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnListazas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="@string/plistaz"
+        app:cornerRadius="10dp"
+        android:backgroundTint="@color/Secondary"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="17sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="20dp"
+        android:background="@color/Primary">
+
+    </ScrollView>
+
+</LinearLayout>
